@@ -29,18 +29,6 @@ header, main, footer {
     text-align: center;
 }
 
-/*imagem instagram*/
-.imagem{
-    width: 2%;
-    height: 2%;
-}
-
-/*imagem facebook*/
-.imagem_face{
-    width: 4%;
-    height: 4%;
-}
-
 footer{
     margin-top: auto;
     padding: 3px;
