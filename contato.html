@@ -5,6 +5,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
         <title>Contato</title>
         <link rel="stylesheet" href="cssclasses.css">
+        <script type="text/javascript" src="botao.js"></script>
     <head>
 
     <header>
@@ -12,48 +13,41 @@
     </header>
 
     <body class='cor_corpo'>
-        <h3>Contato Escola de Idiomas Fale Bem<h3>
+        <h3>Escola de Idiomas Fale Bem - Contato<h3>
        
 
-         <h4><a href='index.html'>HOME</a></h4>     
+         <h4><a href='index.html'>Página inicial</a></h4>     
             <form action = 'contato.html' method='POST' name='Formulário' class='classe1'>
                 <label class='classe2'>Nome Completo:</label>
                     <br/><input type='text' 
+                                id='nome'
                                 maxlength='80'
                                 name='user'
                                 size='40'/>            
                 <br/><label class='classe2'>Email:</label>
                     <br/><input type='text'
+                                id='email'
                                 maxlength='80'
-                                name='email'
+                                name='e-mail'
                                 size='40'/>
-                <p>
-                <select name='Assunto'>
+                <p>Assunto: 
+                <select name='Assunto' id='assun'>
+                    <option value=''></option>
                     <option value='Atendimento'>Atendimento</option>
                     <option value='Secretaria'>Secretaria</option>
                     <option value='Financeiro'>Financeiro</option>
                     <option value='Ouvidoria'>Ouvidoria</option>
                 </select>
             </form>
-                <br/><input type='button'
-                            value='enviar'
-                        />
-                <input type='reset'
-                        value='limpar'/>
-
-            <script type="text/javascript" src="repeticao.js"></script>
-            <form method="GET" onclick="function repeticao()">
-                <button type="submit"
-                        value='click'
-                        class='click'>clique
-                </button>
-        </form>
-        </br>
+            <br/><input type='button'
+                        value='enviar'
+                        onclick='validar()'/>
         <p></p>
     <h3>Entre em nossas redes sociais</h3>
-    <a href= 'https://www.instagram.com/falebemidiomas/?hl=pt-br'><img src='instagram.png' class='imagem'> 
-    <a href= 'https://pt-br.facebook.com/'><img src='facebook.png' class='imagem_face'> 
+    <a href= 'https://www.instagram.com/falebemidiomas/?hl=pt-br'><img src='instagram.png' class='imagem'> </a>
+    <a href= 'https://pt-br.facebook.com/'><img src='facebook.png' class='imagem_face'> </a>
     </body>
+    <p>
 
     <footer>
         <h4>Copyright 2020 © Escola Falar Bem by <span>MAGNUM</span> Todos os direitos reservados </h4> 

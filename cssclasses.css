@@ -50,3 +50,8 @@ footer{
 footer h4 span{
     color:#ff4f4f;
 }
+
+a:link, a:visited{
+    text-decoration: none;/*retira toda decoracao*/
+    font-weight: 1000px;
+}
