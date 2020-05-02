@@ -1,0 +1,52 @@
+/*Formatação do formulário*/
+.classe1{
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    width: 350px;
+}
+
+/*Formatação dos itens do formulário*/
+.classe2{
+    font-weight: 300;
+    display: inline-block;
+    text-size-adjust: 50px;
+}
+
+/*cor de fundo da página*/
+.cor_corpo{
+    font-family: 'Roboto', sans-serif;
+    background-color:#EEE9E9;
+}
+
+header{
+    background-image: url(falar.jpg);
+    color: #ff4f4f;
+}
+
+header, main, footer {
+    text-align: center;
+}
+
+/*imagem instagram*/
+.imagem{
+    width: 2%;
+    height: 2%;
+}
+
+/*imagem facebook*/
+.imagem_face{
+    width: 4%;
+    height: 4%;
+}
+
+footer{
+    margin-top: auto;
+    padding: 3px;
+    border: 3px solid #eee;
+}
+
+footer h4 span{
+    color:#ff4f4f;
+}
