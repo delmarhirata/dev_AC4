@@ -3,13 +3,13 @@ function validar(){
     var email_valid = document.getElementById("email").value;
     var assunto_valid = document.getElementById("assun").value;
     if(nome_valid ==''){
-        alert('Preencher campo nome');
+        alert('Favor preencher campo nome');
     }
     if(email_valid ==''){
-        alert('Preencher campo email');
+        alert('Favor preencher campo email');
     }
     if(assunto_valid ==''){
-        alert('Preencher campo assunto');
+        alert('Favor preencher campo assunto');
     }
     
 }
