@@ -36,6 +36,11 @@ section.cursos{
 main span{
     color:blue;
 }
+
+section.texto span{
+    color: red;
+}
+
 footer{
     margin-top: auto;
     padding: 1px;
