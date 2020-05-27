@@ -39,6 +39,7 @@ main span{
 
 section.texto span{
     color: red;
+    font-weight: 800;
 }
 
 footer{
